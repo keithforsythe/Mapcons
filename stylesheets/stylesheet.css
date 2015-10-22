@@ -211,11 +211,11 @@ a {
       padding: 20px 0;
   }
   .box-grid {
-  display: block;
-      position: relative;
-      float: left;
-      padding: 12px;
-      text-align: center;
+    display: block;
+    position: relative;
+    float: left;
+    padding: 12px;
+    text-align: center;
   }
   .clearfix {
     display: block;
