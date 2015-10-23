@@ -17,6 +17,7 @@
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
+	font-size: 24px;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -47,7 +48,7 @@
 .mc-polygon:before {
 	content: "\e807";
 }
-.mc-ruler-square:before {
+.mc-ruler:before {
 	content: "\e808";
 }
 .mc-draw:before {
@@ -62,7 +63,7 @@
 .mc-water-temp-celsius:before {
 	content: "\e80c";
 }
-.mc-water-temperature-fahrenheit:before {
+.mc-water-temp-fahrenheit:before {
 	content: "\e80d";
 }
 .mc-bounding-box:before {
