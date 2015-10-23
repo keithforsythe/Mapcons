@@ -24,6 +24,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+[class^="mc-"]:hover, [class*=" mc-"]:hover {
+color: green;
+}
 .mc-saline-negative:before {
 	content: "\e800";
 }
@@ -48,7 +51,7 @@
 .mc-polygon:before {
 	content: "\e807";
 }
-.mc-ruler-square:before {
+.mc-ruler:before {
 	content: "\e808";
 }
 .mc-draw:before {
@@ -63,7 +66,7 @@
 .mc-water-temp-celsius:before {
 	content: "\e80c";
 }
-.mc-water-temperature-fahrenheit:before {
+.mc-water-temp-fahrenheit:before {
 	content: "\e80d";
 }
 .mc-bounding-box:before {
