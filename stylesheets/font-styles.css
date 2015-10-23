@@ -26,6 +26,7 @@
 
 [class^="mc-"]:hover, [class*=" mc-"]:hover {
 color: green;
+
 }
 .mc-saline-negative:before {
 	content: "\e800";
