@@ -49,7 +49,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #7DA0D6;
-  background-image: linear-gradient(120deg, #155799, #159957); 
+  background-image: linear-gradient(120deg, #155799, #7DA0D6)); 
   background-image: url('https://images.unsplash.com/photo-1437422061949-f6efbde0a471?q=80&fm=jpg&s=e23055c9ba7686b8fe583fb8318a1f88');
     background-size: cover;
 }
@@ -69,6 +69,8 @@ a {
 @media screen and (max-width: 42em) {
   .page-header {
     padding: 2rem 1rem; 
+    background-color: #7DA0D6;
+  background-image: linear-gradient(120deg, #155799, #7DA0D6);
 	} 
 	p{
 		font-size: 18px;
@@ -88,7 +90,7 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.25rem; 
+    font-size: 4.5rem; 
 	} 
 }
 

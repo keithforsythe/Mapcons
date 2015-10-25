@@ -17,7 +17,7 @@
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
   background-color: #5F8CC9;
-  border-color: rgba(255, 255, 255, 0.3); 
+  border-color: #4776C3; 
 }
 
 @media screen and (min-width: 64em) {
@@ -28,8 +28,10 @@
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem; 
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.12rem;  
   } 
   .download-btn {
     display: none;
