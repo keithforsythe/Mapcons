@@ -33,15 +33,25 @@ a {
   color: #1e6bb8;
   text-decoration: none; 
 }
-  a:hover {
+ a:hover {
     text-decoration: underline; 
 }
-
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #000; 
+}
+.main-content p {
+  font-size: 20px;
+}
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
+  background-color: #7DA0D6;
   background-image: linear-gradient(120deg, #155799, #159957); 
+  background-image: url('https://images.unsplash.com/photo-1437422061949-f6efbde0a471?q=80&fm=jpg&s=e23055c9ba7686b8fe583fb8318a1f88');
+    background-size: cover;
 }
 
 @media screen and (min-width: 64em) {
@@ -60,6 +70,9 @@ a {
   .page-header {
     padding: 2rem 1rem; 
 	} 
+	p{
+		font-size: 18px;
+	}
 }
 
 .project-name {
@@ -93,7 +106,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.25rem; 
+    font-size: 1.55rem; 
 	} 
 }
 

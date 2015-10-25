@@ -1,7 +1,7 @@
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
@@ -14,9 +14,9 @@
   }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #5F8CC9;
   border-color: rgba(255, 255, 255, 0.3); 
 }
 
@@ -41,7 +41,7 @@
     display: block;
     width: 100%;
     padding: 0.75rem;
-    font-size: 0.9rem; 
+    font-size: 1.12rem; 
   }
     .btn + .btn {
       margin-top: 1rem;
