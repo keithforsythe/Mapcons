@@ -1,13 +1,14 @@
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.08);
+  color: #0A1C4A;
+  background-color: rgba(255, 255, 255, 0.85);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s; 
+  font-size: 1.12rem;  
 }
   .btn + .btn {
     margin-left: 1rem; 
@@ -16,8 +17,8 @@
 .btn:hover {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  background-color: #5F8CC9;
-  border-color: #4776C3; 
+  background-color: #213A77;
+  border-color: #213A77; 
 }
 
 @media screen and (min-width: 64em) {
@@ -45,11 +46,11 @@
     padding: 0.75rem;
     font-size: 1.12rem; 
   }
-    .btn + .btn {
-      margin-top: 1rem;
-      margin-left: 0; 
-    } 
-    .download-btn {
+  .btn + .btn {
+    margin-top: 1rem;
+    margin-left: 0; 
+  } 
+  .download-btn {
     display: none;
   }
 

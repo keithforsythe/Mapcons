@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
-	font-weight: 100;
+	font-weight: 200;
 }
 h1 {
 font-size: 3rem;
@@ -49,7 +49,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #7DA0D6;
-  background-image: url('https://images.unsplash.com/photo-1437422061949-f6efbde0a471?q=80&fm=jpg&s=e23055c9ba7686b8fe583fb8318a1f88');
+  background-image: url('../img/photo-1437422061949-f6efbde0a471.jpeg');
     background-size: cover;
 }
 
@@ -107,7 +107,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.55rem; 
+    font-size: 1.85rem; 
 	} 
 }
 
