@@ -107,6 +107,8 @@ body {
   background-color: #eff0f1;
   border: 0; }
 
+
+
   /* kf */
   section.row {
       display: flex;
@@ -127,6 +129,7 @@ body {
     margin: 5px;
     border: 1px solid #ddd;
     width: 14%;
+    transition: all .12s;
   }
   .box-grid:hover {
     box-shadow: 1px 1px 5px 1px #eee;
@@ -162,6 +165,9 @@ body {
     clear: both;
   }
 /* end kf */
+
+
+
 @media screen and (min-width: 64em) {
   .main-content {
     max-width: 1366px;
