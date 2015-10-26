@@ -24,6 +24,9 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.mc-x-y-coordinates:before {
+	content: "\e900";
+}
 .mc-saline-negative:before {
 	content: "\e800";
 }
