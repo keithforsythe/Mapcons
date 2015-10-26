@@ -136,8 +136,8 @@ body {
     border-color: #999;
   }
 
-  .box-grid:hover>[class^="mc-"]:hover, [class*=" mc-"] {
-    color: orange;
+  .box-grid:hover [class^="mc-"], [class*=" mc-"] {
+    color: #9F44EA;
   }
    
   .box-grid p {
