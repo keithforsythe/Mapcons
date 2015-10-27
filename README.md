@@ -1,7 +1,7 @@
 # Mapcons
 An icon font for GIS mapping applications.
 
-[Main GitHub Pages Site](http://keithforsythe.github.io/Mapcons/ “Main GitHub Pages Site”)
+[Main GitHub Pages Site](http://keithforsythe.github.io/Mapcons/)
 
 #Instructions
 
