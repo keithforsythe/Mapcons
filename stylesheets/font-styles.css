@@ -27,7 +27,15 @@
 [class^="mc-"]:hover, [class*=" mc-"]:hover {
 	color: #E45A00;
 }
-
+.mc-spacial:before {
+	content: "\e901";
+}
+.mc-standard-units:before {
+	content: "\e902";
+}
+.mc-metric-units:before {
+	content: "\e903";
+}
 .mc-x-y-coordinates:before {
 	content: "\e900";
 }
