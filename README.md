@@ -3,6 +3,21 @@ An icon font for GIS mapping applications.
 
 [Main GitHub Pages Site](http://keithforsythe.github.io/Mapcons/)
 
+##Important
+A new minor version of Mapcons is available. In the 1.1 version there are several changes that could effect current installations. Most notibly, the base grid size in now 20px instead of 24px.
+
+This change was made in an effort to compromise on a good base icon size. 24px felt slightly too large but the semi-standard 16px feels slightly too small. So a base of 20px seems like a good compromise between the two. 
+
+Other changes are:
+
+* Removed standard and metric icons - They didn't work and it is just as easy - and better - to use live text.
+* Updated polygon icon.
+* Updated saline icons.
+* Updated water temp icons.
+* Updated layers icon.
+* Added single layer icon.
+   
+
 #Instructions
 
 Open *demo.html* to see a list of all the glyphs in your font.

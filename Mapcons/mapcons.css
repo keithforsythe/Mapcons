@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'Mapcons';
+	src:url('fonts/Mapcons.eot?trucq4');
+	src:url('fonts/Mapcons.eot?trucq4#iefix') format('embedded-opentype'),
+		url('fonts/Mapcons.ttf?trucq4') format('truetype'),
+		url('fonts/Mapcons.woff?trucq4') format('woff'),
+		url('fonts/Mapcons.svg?trucq4#Mapcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="mc-"], [class*=" mc-"] {
+	font-family: 'Mapcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.mc-polygon:before {
+	content: "\e915";
+}
+.mc-single-layer:before {
+	content: "\e903";
+}
+.mc-saline-negative:before {
+	content: "\e904";
+}
+.mc-saline-positive:before {
+	content: "\e905";
+}
+.mc-saline-content:before {
+	content: "\e906";
+}
+.mc-water-temp-fahrenheit:before {
+	content: "\e907";
+}
+.mc-water-temp-celsius:before {
+	content: "\e908";
+}
+.mc-marker:before {
+	content: "\e909";
+}
+.mc-wind:before {
+	content: "\e90a";
+}
+.mc-thermometer:before {
+	content: "\e90b";
+}
+.mc-draw:before {
+	content: "\e90c";
+}
+.mc-spacial:before {
+	content: "\e90d";
+}
+.mc-legend:before {
+	content: "\e90e";
+}
+.mc-x-y-coordinates:before {
+	content: "\e90f";
+}
+.mc-compass:before {
+	content: "\e910";
+}
+.mc-ruler:before {
+	content: "\e911";
+}
+.mc-layer-info:before {
+	content: "\e912";
+}
+.mc-layers:before {
+	content: "\e913";
+}
+.mc-buffer:before {
+	content: "\e914";
+}
+.mc-draw-line:before {
+	content: "\e900";
+}
+.mc-layer-label:before {
+	content: "\e901";
+}
+.mc-bounding-box:before {
+	content: "\e902";
+}
+
