@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Mapcons';
-	src:url('../fonts/Mapcons.woff') format('woff');
-	src:url('../fonts/Mapcons.eot');
-	src:url('../fonts/Mapcons.eot') format('embedded-opentype'),
-		url('../fonts/Mapcons.ttf') format('truetype'),
-		url('../fonts/Mapcons.svg') format('svg');
+	src:url('../fonts/mapcons.woff') format('woff');
+	src:url('../fonts/mapcons.eot');
+	src:url('../fonts/mapcons.eot') format('embedded-opentype'),
+		url('../fonts/mapcons.ttf') format('truetype'),
+		url('../fonts/mapcons.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
