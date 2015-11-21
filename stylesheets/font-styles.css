@@ -1,96 +1,94 @@
 @font-face {
-	font-family: 'mapcons';
-	src:url('../fonts/mapcons.woff?pct8rg') format('woff');
-	src:url('../fonts/mapcons.eot?pct8rg');
-	src:url('../fonts/mapcons.eot?pct8rg#iefix') format('embedded-opentype'),
-		url('../fonts/mapcons.ttf?pct8rg') format('truetype'),
-		url('../fonts/mapcons.svg?pct8rg#mapcons') format('svg');
+	font-family: 'Mapcons';
+	src:url('../fonts/Mapcons.woff?trucq4') format('woff');
+	src:url('../fonts/Mapcons.eot?trucq4');
+	src:url('../fonts/Mapcons.eot?trucq4#iefix') format('embedded-opentype'),
+		url('../fonts/Mapcons.ttf?trucq4') format('truetype'),
+		url('../fonts/Mapcons.svg?trucq4#Mapcons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 [class^="mc-"], [class*=" mc-"] {
-	font-family: 'mapcons';
+	font-family: 'Mapcons';
 	speak: none;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1;
-	font-size: 48px;
+	line-height: 100%;
+	transition:all .15s ease-in;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-[class^="mc-"]:hover, [class*=" mc-"]:hover {
-	color: #E45A00;
+.mc-polygon:before {
+	content: "\e915";
 }
-.mc-spacial:before {
-	content: "\e901";
-}
-.mc-standard-units:before {
-	content: "\e902";
-}
-.mc-metric-units:before {
+.mc-single-layer:before {
 	content: "\e903";
 }
-.mc-x-y-coordinates:before {
-	content: "\e900";
-}
 .mc-saline-negative:before {
-	content: "\e800";
+	content: "\e904";
 }
 .mc-saline-positive:before {
-	content: "\e801";
+	content: "\e905";
 }
 .mc-saline-content:before {
-	content: "\e802";
-}
-.mc-compass:before {
-	content: "\e803";
-}
-.mc-layer-info:before {
-	content: "\e804";
-}
-.mc-legend:before {
-	content: "\e805";
-}
-.mc-thermometer:before {
-	content: "\e806";
-}
-.mc-polygon:before {
-	content: "\e807";
-}
-.mc-ruler:before {
-	content: "\e808";
-}
-.mc-draw:before {
-	content: "\e809";
-}
-.mc-marker:before {
-	content: "\e80a";
-}
-.mc-layers:before {
-	content: "\e80b";
-}
-.mc-water-temp-celsius:before {
-	content: "\e80c";
+	content: "\e906";
 }
 .mc-water-temp-fahrenheit:before {
-	content: "\e80d";
+	content: "\e907";
 }
-.mc-bounding-box:before {
-	content: "\e80e";
+.mc-water-temp-celsius:before {
+	content: "\e908";
 }
-.mc-buffer:before {
-	content: "\e80f";
-}
-.mc-draw-line:before {
-	content: "\e810";
+.mc-marker:before {
+	content: "\e909";
 }
 .mc-wind:before {
-	content: "\e811";
+	content: "\e90a";
+}
+.mc-thermometer:before {
+	content: "\e90b";
+}
+.mc-draw:before {
+	content: "\e90c";
+}
+.mc-spacial:before {
+	content: "\e90d";
+}
+.mc-legend:before {
+	content: "\e90e";
+}
+.mc-x-y-coordinates:before {
+	content: "\e90f";
+}
+.mc-compass:before {
+	content: "\e910";
+}
+.mc-ruler:before {
+	content: "\e911";
+}
+.mc-layer-info:before {
+	content: "\e912";
+}
+.mc-layers:before {
+	content: "\e913";
+}
+.mc-buffer:before {
+	content: "\e914";
+}
+.mc-draw-line:before {
+	content: "\e900";
+}
+.mc-layer-label:before {
+	content: "\e901";
+}
+.mc-bounding-box:before {
+	content: "\e902";
 }
 

@@ -126,18 +126,25 @@ body {
     float: left;
     padding: 50px 20px 0 20px;
     text-align: center;
+    background-color:white;
     margin: 5px;
     border: 1px solid #ddd;
     width: 14%;
-    transition: all .12s;
+    transition:all .15s ease-in;
   }
   .box-grid:hover {
     box-shadow: 1px 1px 5px 1px #eee;
     border-color: #999;
+    transition:all .15s ease-in;
+    /*transform:scale3d(1.12,1.12,1.12);*/
+    z-index: 9090;
+
   }
 
   .box-grid:hover [class^="mc-"], [class*=" mc-"] {
     color: #9F44EA;
+    font-size: 40px;
+    transition:all .15s ease-in;
   }
    
   .box-grid p {
@@ -195,7 +202,7 @@ body {
   font-weight: bold; }
 
 .site-footer-credits {
-  color: #819198; }
+  color: #666;display: block; }
 
 @media screen and (min-width: 64em) {
   .site-footer {
