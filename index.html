@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="stylesheets/font-styles.css" media="screen">
   </head>
   <body>
+
     <section class="page-header">
-      <h1 class="project-name">Mapcons</h1>
+      <h1 class="project-name">Mapcons <span class="version">v1.1</span></h1>
       <h2 class="project-tagline">An icon font for GIS mapping applications.</h2>
       <a href="https://github.com/keithforsythe/Mapcons" class="btn">View on GitHub</a>
       <a href="https://github.com/keithforsythe/Mapcons/zipball/master" class="btn download-btn">Download .zip</a>
@@ -23,10 +24,13 @@
 
     <section class="main-content">
 
-   
+   <div class="notice">
+     <strong>Important</strong>
+     <p>A new minor version of Mapcons is available. In the 1.1 version there are several changes that could effect current installations. <strong><a href="#notice">Read more</a></strong>.</p>
+   </div>
 
     <h1>Icons</h1>
-    <p>These are a collection of mapping icons I designed for the GIS web apps we build at NOAA. More icons and styles on the way. Enjoy :)</p>
+    <p>These are a collection of mapping icons I designed for the GIS web apps we build at NOAA. More icons and styles on the way. Enjoy!</p>
 
     <section class="row">
 
@@ -176,12 +180,27 @@
     </section>
 <span class="clearfix"></span>
 
+  <div class="notice" id="notice">
+    <strong>Important</strong>
+    <p>A new minor version of Mapcons is available. In the 1.1 version there are several changes that could effect current installations. Most notibly, <strong>the base grid size in now 20px instead of 24px</strong>.</p>
+    <p>This change was made in an effort to compromise on a good base icon size. 24px felt slightly too large but the semi-standard 16px feels slightly too small. So a base of 20px seems like a good compromise between the two.</p> 
+    <p>Other changes are:</p>
+    <ul>
+      <li>Removed standard and metric icons - They didn't work and it is just as easy - and better - to use live text.</li>
+      <li>Updated polygon icon</li>
+      <li>Updated saline icons</li>
+      <li>Updated water temp icons</li>
+      <li>Updated layers icon</li>
+      <li>Added single layer icon</li>
+    </ul>
+  </div>
+
  <h1>Usage</h1>
-    <p>Icons were designed on a <strong>24px x 24px grid</strong>. Crisp sizes are <strong>24px</strong>, <strong>48px</strong>, <strong>64px</strong>. <em>Current display is 48px.</em></p>
+    <p>Icons were designed on a <strong>20px x 20px grid</strong>. Crisp sizes are <strong>20px</strong>, <strong>40px</strong>, <strong>60px</strong>.</p>
 
     <h1><a id="instructions" class="anchor" href="#instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instructions</h1>
 
-    <p>Open <em>demo.html</em> to see a list of all the glyphs in your font.</p>
+    <p>Open <strong>demo.html</strong> to see a list of all the glyphs in your font.</p>
 
     <p>To use the generated font in desktop programs, you can install the TTF font. In order to copy the character associated with each icon, refer to the text box at the bottom right corner of each glyph in demo.html. The character inside this text box may be invisible; but it can still be copied.</p>
 
