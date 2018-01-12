@@ -17,8 +17,8 @@
 .btn:hover {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  background-color: #213A77;
-  border-color: #213A77; 
+  background-color: rgb(25, 155, 112);
+  border-color: rgb(25, 155, 112); 
 }
 
 @media screen and (min-width: 64em) {

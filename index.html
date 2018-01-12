@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Mapcons by keithforsythe</title>
+    <title>Mapcons: An iconfont for GIS applications</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:700,200' rel='stylesheet' type='text/css'>
@@ -15,18 +15,19 @@
   <body>
 
     <section class="page-header">
-      <h1 class="project-name">Mapcons <span class="version">v1.1</span></h1>
+      <h1 class="project-name">Mapcons <span class="version">v1.2</span></h1>
       <h2 class="project-tagline">An icon font for GIS mapping applications.</h2>
       <a href="https://github.com/keithforsythe/Mapcons" class="btn">View on GitHub</a>
       <a href="https://github.com/keithforsythe/Mapcons/zipball/master" class="btn download-btn">Download .zip</a>
       <a href="https://github.com/keithforsythe/Mapcons/tarball/master" class="btn download-btn">Download .tar.gz</a>
+        <p class="caption"><small>by <a href="https://unsplash.com/photos/J78d8MN7JmY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Akram Shehadi</a> on <a href="Akram Shehadi" target="_blank">Unsplash</a></small></p> 
     </section>
 
     <section class="main-content">
 
    <div class="notice">
      <strong>Important</strong>
-     <p>A new minor version of Mapcons is available. In the 1.1 version there are several changes that could effect current installations. <strong><a href="#notice">Read more</a></strong>.</p>
+     <p>A new minor version of Mapcons is available. In the 1.2 version there are several changes that could effect current installations. <strong><a href="#notice">Read more</a></strong>.</p>
    </div>
 
     <h1>Icons</h1>
@@ -36,19 +37,27 @@
 
       <div class="box-grid">
 
-        <span class="mc-spacial"></span>
+        <span class="mc-saline-negative-shaker"></span>
 
-        <p>mc-spacial</p>
+        <p>mc-saline-negative-shaker</p>
            
       </div>
 
-      <div class="box-grid">
-        
-          <span class="mc-x-y-coordinates"></span>
+    <div class="box-grid">
 
-          <p>mc-x-y-coordinates</p>
-               
-      </div>
+        <span class="mc-saline-positive-shaker"></span>
+
+        <p>mc-saline-positive-shaker</p>
+
+    </div>
+
+    <div class="box-grid">
+    
+        <span class="mc-saline-shaker"></span>
+    
+        <p>mc-saline-shaker</p>
+    
+    </div>
 
       <div class="box-grid">
         
@@ -65,24 +74,18 @@
 
       </div>
 
-      <div class="box-grid">
-        
-          <span class="mc-saline-content"></span>
-          <p> mc-saline-content</p>
-                
-      </div>
+    <div class="box-grid">
+    
+        <span class="mc-x-y-coordinates"></span>
+    
+        <p>mc-x-y-coordinates</p>
+    
+    </div>
 
       <div class="box-grid">
         
           <span class="mc-compass"></span>
           <p> mc-compass</p>
-
-      </div>
-
-      <div class="box-grid">
-        
-          <span class="mc-layer-info"></span>
-          <p> mc-layer-info</p>
 
       </div>
 
@@ -123,8 +126,8 @@
 
       <div class="box-grid">
         
-          <span class="mc-marker"></span>
-          <p> mc-marker</p>
+          <span class="mc-map-marker"></span>
+          <p> mc-map-marker</p>
 
       </div>
 
@@ -134,6 +137,13 @@
           <p> mc-layers</p>
 
       </div>
+
+    <div class="box-grid">
+    
+        <span class="mc-single-layer"></span>
+        <p> mc-single-layer</p>
+    
+    </div>
 
       <div class="box-grid">
         
@@ -177,26 +187,78 @@
       
       </div>
 
+        <div class="box-grid">
+        
+            <span class="mc-map-services"></span>
+            <p> mc-map-services</p>
+        
+        </div>
+
+        <div class="box-grid">
+        
+            <span class="mc-map-services-filled"></span>
+            <p> mc-map-services-filled</p>
+        
+        </div>
+
+        <div class="box-grid">
+        
+            <span class="mc-lidar-drone"></span>
+            <p> mc-lidar-drone</p>
+        
+        </div>
+
+        <div class="box-grid">
+        
+            <span class="mc-land-cover"></span>
+            <p> mc-land-cover</p>
+        
+        </div>
+
+        <div class="box-grid">
+        
+            <span class="mc-spatial"></span>
+            <p> mc-spatial</p>
+        
+        </div>
+
+        <div class="box-grid">
+        
+            <span class="mc-spatial-filled"></span>
+            <p> mc-spatial-filled</p>
+        
+        </div>
+
+        
+
+    <div class="box-grid">
+    
+        <span class="mc-sweet-leaf"></span>
+        <p> mc-sweet-leaf</p>
+    
+    </div>
+
     </section>
 <span class="clearfix"></span>
 
   <div class="notice" id="notice">
     <strong>Important</strong>
-    <p>A new minor version of Mapcons is available. In the 1.1 version there are several changes that could effect current installations. Most notibly, <strong>the base grid size in now 20px instead of 24px</strong>.</p>
-    <p>This change was made in an effort to compromise on a good base icon size. 24px felt slightly too large but the semi-standard 16px feels slightly too small. So a base of 20px seems like a good compromise between the two.</p> 
+    <p>A new minor version of Mapcons is available. In the 1.2 version <strong>the base grid size is 16px.</strong> for better integration with other font libraries.</p>
+
     <p>Other changes are:</p>
     <ul>
-      <li>Removed standard and metric icons - They didn't work and it is just as easy - and better - to use live text.</li>
-      <li>Updated polygon icon</li>
-      <li>Updated saline icons</li>
-      <li>Updated water temp icons</li>
-      <li>Updated layers icon</li>
-      <li>Added single layer icon</li>
+        <li>Increased icon thinkess to 1px from .5 px</li>
+        <li>Added two varients of the saline icons.</li>
+        <li>Updated layers icon</li>
+        <li>simplified draw icon</li>
+        <li>Updated legend icon</li>
+        <li>Updated buffer icon</li>
+        <li>Added new metrics icon</li>
     </ul>
   </div>
 
  <h1>Usage</h1>
-    <p>Icons were designed on a <strong>20px x 20px grid</strong>. Crisp sizes are <strong>20px</strong>, <strong>40px</strong>, <strong>60px</strong>.</p>
+    <p>Icons were designed on a <strong>16px x 16px grid</strong>. Crisp sizes are <strong>16px</strong>, <strong>32px</strong>, <strong>64px</strong>. However, they can be used at 20px, 24px, 28px with good results.</p>
 
     <h1><a id="instructions" class="anchor" href="#instructions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instructions</h1>
 
@@ -207,7 +269,10 @@
     <p>You won’t need any of the files located under the <em>demo-files</em> directory when including the generated font in your own projects.</p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/keithforsythe/Mapcons">Mapcons</a> is maintained by <a href="https://github.com/keithforsythe">keithforsythe</a>.</span>
+        <span class="site-footer-owner"><a href="https://github.com/keithforsythe/Mapcons">Mapcons</a> is maintained by <a href="https://github.com/keithforsythe">keithforsythe</a>.
+        <a href="" target="_blank">Created using IcoMoon</a>
+        </span>
+
 
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> based on the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
 

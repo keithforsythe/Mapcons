@@ -1,8 +1,8 @@
 h1,h2,h3,h4,h5,h6 {
-	font-weight: 200;
+	font-weight: 300;
 }
 h1 {
-font-size: 3rem;
+  font-size: 3rem;
 }
 h2 {
 
@@ -20,17 +20,11 @@ h6 {
 
 }
 p {
-
+  color: black;
 }
 
-.project-name {
-	
-}
-.project-tagline {
-
-}
 a {
-  color: #1e6bb8;
+  color: rgb(25, 155, 112);
   text-decoration: none; 
 }
  a:hover {
@@ -49,10 +43,12 @@ a {
   color: #fff;
   text-align: center;
   background-color: #7DA0D6;
-  background-image: url('../img/photo-1437422061949-f6efbde0a471.jpeg');
+  background-image: url('../img/page-header-bg.jpg');
     background-size: cover;
 }
-
+.page-header  p {
+  color: white;
+}
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 5rem 6rem; 
