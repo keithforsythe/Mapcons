@@ -1,92 +1,113 @@
 @font-face {
-	font-family: 'Mapcons';
-	src:url('fonts/Mapcons.eot?trucq4');
-	src:url('fonts/Mapcons.eot?trucq4#iefix') format('embedded-opentype'),
-		url('fonts/Mapcons.ttf?trucq4') format('truetype'),
-		url('fonts/Mapcons.woff?trucq4') format('woff'),
-		url('fonts/Mapcons.svg?trucq4#Mapcons') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'mapcons';
+  src:  url('fonts/mapcons.eot?e42wp6');
+  src:  url('fonts/mapcons.eot?e42wp6#iefix') format('embedded-opentype'),
+    url('fonts/mapcons.ttf?e42wp6') format('truetype'),
+    url('fonts/mapcons.woff?e42wp6') format('woff'),
+    url('fonts/mapcons.svg?e42wp6#mapcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="mc-"], [class*=" mc-"] {
-	font-family: 'Mapcons';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mapcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.mc-polygon:before {
-	content: "\e915";
+.mc-sweet-leaf:before {
+  content: "\e91c";
 }
-.mc-single-layer:before {
-	content: "\e903";
+.mc-map-services-filled:before {
+  content: "\e915";
 }
-.mc-saline-negative:before {
-	content: "\e904";
+.mc-map-services:before {
+  content: "\e916";
 }
-.mc-saline-positive:before {
-	content: "\e905";
+.mc-land-cover:before {
+  content: "\e918";
 }
-.mc-saline-content:before {
-	content: "\e906";
+.mc-lidar-drone:before {
+  content: "\e91a";
 }
-.mc-water-temp-fahrenheit:before {
-	content: "\e907";
+.mc-saline-negative-shaker:before {
+  content: "\e900";
 }
-.mc-water-temp-celsius:before {
-	content: "\e908";
+.mc-saline-positive-shaker:before {
+  content: "\e901";
 }
-.mc-marker:before {
-	content: "\e909";
-}
-.mc-wind:before {
-	content: "\e90a";
-}
-.mc-thermometer:before {
-	content: "\e90b";
-}
-.mc-draw:before {
-	content: "\e90c";
-}
-.mc-spacial:before {
-	content: "\e90d";
+.mc-saline-shaker:before {
+  content: "\e902";
 }
 .mc-legend:before {
-	content: "\e90e";
-}
-.mc-x-y-coordinates:before {
-	content: "\e90f";
+  content: "\e903";
 }
 .mc-compass:before {
-	content: "\e910";
+  content: "\e904";
 }
-.mc-ruler:before {
-	content: "\e911";
+.mc-saline-negative:before {
+  content: "\e905";
 }
-.mc-layer-info:before {
-	content: "\e912";
+.mc-saline-positive:before {
+  content: "\e906";
 }
 .mc-layers:before {
-	content: "\e913";
+  content: "\e907";
+}
+.mc-single-layer:before {
+  content: "\e917";
+}
+.mc-map-marker:before {
+  content: "\e908";
 }
 .mc-buffer:before {
-	content: "\e914";
-}
-.mc-draw-line:before {
-	content: "\e900";
-}
-.mc-layer-label:before {
-	content: "\e901";
+  content: "\e909";
 }
 .mc-bounding-box:before {
-	content: "\e902";
+  content: "\e90a";
 }
-
+.mc-spatial:before {
+  content: "\e90b";
+}
+.mc-spatial-filled:before {
+  content: "\e91b";
+}
+.mc-ruler:before {
+  content: "\e90c";
+}
+.mc-metrics:before {
+  content: "\e919";
+}
+.mc-wind:before {
+  content: "\e90d";
+}
+.mc-x-y-coordinates:before {
+  content: "\e90e";
+}
+.mc-draw:before {
+  content: "\e90f";
+}
+.mc-polygon:before {
+  content: "\e910";
+}
+.mc-water-temp-celsius:before {
+  content: "\e911";
+}
+.mc-water-temp-fahrenheit:before {
+  content: "\e912";
+}
+.mc-draw-line:before {
+  content: "\e913";
+}
+.mc-thermometer:before {
+  content: "\e914";
+}
