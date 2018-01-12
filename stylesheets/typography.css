@@ -67,6 +67,8 @@ a {
   .page-header {
     padding: 2rem 1rem; 
     background-color: rgb(46,30,65);;
+          background-image: url('../img/page-header-bg-mobile.jpg');
+
   background-image: linear-gradient(120deg, #155799, rgb(46,30,65););
 	} 
 	p{
