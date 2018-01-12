@@ -59,6 +59,7 @@ a {
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     padding: 3rem 4rem; 
+      background-image: url('../img/page-header-bg-mobile.jpg');
 	} 
 }
 
